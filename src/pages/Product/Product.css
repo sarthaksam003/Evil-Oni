@@ -1,0 +1,140 @@
+.carousel {
+  padding-top: 3rem;
+}
+.product-layout {
+  width: 95rem;
+}
+.flexing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-specs {
+  padding-top: 6rem;
+}
+
+.product-specs-heading {
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.product-specs-desc {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  padding: 2rem 2rem;
+}
+.product-specs-desc li {
+  font-size: 1.06rem;
+  font-family: "mukta", cursive;
+  list-style-type: disc;
+}
+.product-specs-desc p {
+  font-family: "Bebas Neue", cursive;
+}
+
+.product-specs-desc-cost {
+  margin-top: 1.4rem;
+  font-size: 2.4rem;
+}
+
+.product-specs-desc-size {
+  font-size: 1.4rem;
+}
+
+input[type="radio"] {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 0.2rem solid rgb(136, 136, 136);
+  background-color: rgb(255, 255, 255);
+  -webkit-appearance: none; /*to disable the default appearance of radio button*/
+  -moz-appearance: none;
+  margin-bottom: 0.2rem;
+}
+
+input[type="radio"]:focus {
+  /*no need, if you don't disable default appearance*/
+  outline: none; /*to remove the square border on focus*/
+}
+
+input[type="radio"]:checked {
+  /*no need, if you don't disable default appearance*/
+  border: 0.25rem solid blueviolet;
+}
+
+label span:first-of-type {
+  font-family: "Bebas Neue", cursive;
+
+  position: relative;
+  /* left: -2rem; */
+  font-size: 15px;
+  color: black;
+}
+
+label span {
+  position: relative;
+  top: -10px;
+}
+
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  margin: 0%;
+}
+
+.link-to-size-chart p {
+  font-family: "Mukta", cursive;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: blueviolet;
+}
+
+.size-circles span {
+  right: "2.2rem";
+  top: "-0.8rem";
+}
+
+.add-to-cart-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0.2rem solid rgb(216, 215, 215);
+  width: 15rem;
+  background-color: blueviolet;
+  font-family: "Bebas Neue", cursive;
+  border-radius: 0.8rem;
+  color: white;
+}
+.add-to-cart-text p {
+  margin-top: 0.8rem;
+}
+.submit {
+  /* margin-left: 2rem; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-to-cart-text:hover,
+.add-to-cart-text:active {
+  background-color: rgb(181, 105, 252);
+  border-color: rgb(99, 99, 99);
+  color: white;
+}
+
+#add,
+#remove {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.product-specs-desc-quantity {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.4rem;
+  font-size: 2.4rem;
+  font-family: "Bebas Neue", cursive;
+  /* font-size: 2.4rem; */
+}

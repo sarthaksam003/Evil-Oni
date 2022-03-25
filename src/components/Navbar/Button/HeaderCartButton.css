@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@300&display=swap");
+.button {
+  cursor: pointer;
+  margin-right: 1rem;
+  font: inherit;
+  border: 3px solid white;
+  background-color: rgb(138, 43, 226);
+  color: white;
+  padding: 0.75rem 0rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  background-color: rgb(181, 105, 252);
+}
+
+.cart-icon {
+  width: 1.85rem;
+  height: 1.85rem;
+
+  margin: 0;
+  /* margin-right: 0.5rem; */
+  padding-left: 0;
+}
+
+.cart-text p {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Mukta", sans-serif;
+}
+
+.badge {
+  width: 40px;
+  height: 40px;
+  background-color: #292929;
+  /* padding: 0.25rem 1rem; */
+  margin-right: 1rem;
+  font-weight: bold;
+  border: 3px solid white;
+}
+
+.badge-text {
+  font-size: 25px;
+  font-family: "Mukta", sans-serif;
+  padding-top: 0.7px;
+}
+.button:hover .badge,
+.button:active .badge {
+  background-color: #424242;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 767px) {
+  .cart-text {
+    display: none;
+  }
+}

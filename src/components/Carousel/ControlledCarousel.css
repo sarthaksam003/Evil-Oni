@@ -1,0 +1,44 @@
+.carousel-control-prev-icon {
+  /* top:10rem;
+    transform: translate(-4rem,5rem); */
+  position: absolute;
+  top: 17rem;
+  right: 10rem;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  top: 17rem;
+  left: 10rem;
+}
+
+.carousel.indicators {
+  position: absolute;
+  top: 17rem;
+  left: 10rem;
+}
+
+.button-text p {
+  background-color: black;
+  /* transform: translatex(30rem); */
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+}
+
+.actions {
+  display: block;
+}
+
+.actions Link {
+  margin-left: "16rem";
+}
+
+.cart-text {
+  display: hidden;
+}
+
+#carousel-body {
+  width: 95rem;
+  height: 40rem;
+}
+
